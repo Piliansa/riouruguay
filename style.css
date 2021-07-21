@@ -44,7 +44,7 @@ header {
         z-index: 1000;
         top: 30px;
         right: 30px;
-        background: #fff;
+        background: transparent;
         width: 40px;
         height: 40px;
         cursor: pointer;
@@ -65,7 +65,7 @@ header {
     justify-content: space-evenly;
     align-items: center;
     transition: transform .3s ease-in-out;
-    /* transform: traslate(110%); */
+    transform: traslate(110%);
     box-shadow: 0 0 6px rgba(0, 0, 0, .5);
  }
 
