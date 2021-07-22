@@ -21,7 +21,7 @@ body {
 
 header {
     height: 100vh;
-    background-image: linear-gradient(to top, rgba(160, 128, 151, 0.4) 0%, rgba(166, 192, 238, 0.4) 100%), url(atte-gronlund-JiphyElpixM-unsplash.jpg);
+    background-image: linear-gradient(to top, hsla(317, 14%, 56%, 0.4) 0%, rgba(166, 192, 238, 0.4) 100%), url(atte-gronlund-JiphyElpixM-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -58,14 +58,14 @@ header {
     right: 0;
     width: 30vw;
     height: 110%;
-    background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+    background-image: linear-gradient(to top, rgb(159, 127, 150, .5) 0%, rgb(165, 192, 238, .5) 100%);
     display: flex;
     /* display: none; */
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    transition: transform .3s ease-in-out;
-    transform: traslate(0%);
+    transition: .3s ease-in-out;
+    transform: translate(0%);
     box-shadow: 0 0 6px rgba(0, 0, 0, .5);
  }
 
@@ -75,6 +75,7 @@ header {
 
 .menu-navegacion a{
     color: #fff;
+    font-family: 'Open Sans', sans-serif;
     text-decoration: none;
 }
 
