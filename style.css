@@ -290,7 +290,7 @@ footer {
 
 @media screen and (max-width: 800px) {
     .menu-navegacion {
-        width: 50vw;
+        width: 20vw;
     }
     .titulo {
         font-size: 40px;
@@ -336,7 +336,7 @@ footer {
 
 @media screen and (max-width:500px) {
     .menu-navegacion {
-        width: 65vw;
+        width: 15vw;
     }
     .hamburger {
         top: 20px;
