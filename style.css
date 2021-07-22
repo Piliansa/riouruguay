@@ -64,7 +64,7 @@ header {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    transition: .3s ease-in-out;
+    transition: transform .3s ease-in-out;
     transform: translate(0%);
     box-shadow: 0 0 6px rgba(0, 0, 0, .5);
  }
@@ -336,7 +336,7 @@ footer {
 
 @media screen and (max-width:500px) {
     .menu-navegacion {
-        width: 15vw;
+        width: 30vw;
     }
     .hamburger {
         top: 20px;
