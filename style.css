@@ -12,11 +12,12 @@ body {
 
 .centrado {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .tamaño {
     font-size: 2rem;
     text-align: center;
+    margin-bottom: 3rem;
 }
 .contenedor {
     width: 90%;
