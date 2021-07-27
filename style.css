@@ -10,7 +10,14 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-
+.centrado {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.tamaño {
+    font-size: 2rem;
+    text-align: center;
+}
 .contenedor {
     width: 90%;
     max-width: 1200px;
