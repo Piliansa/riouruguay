@@ -46,7 +46,10 @@ header {
     flex-direction: column;
     color: #fff;
 }
-
+.flecha {
+    width: 100px;
+    padding: 20px;
+}
 .hamburger {
         position: fixed;
         z-index: 10;
