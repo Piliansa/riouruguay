@@ -10,7 +10,7 @@ function imgActual() {
     var actual = imagenesLight;
     for(i = 0; i < imagenesLight; i++){
         if(imagenesLight.src === imagenes[i].src);
-        // break;
+        break;
     }
     if(i === imagenes.length) i=0;
     return i
