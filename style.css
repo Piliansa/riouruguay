@@ -47,8 +47,9 @@ header {
     color: #fff;
 }
 .flecha {
-    width: 100px;
+    width: 60px;
     padding: 20px;
+    cursor: pointer;
 }
 .hamburger {
         position: fixed;
