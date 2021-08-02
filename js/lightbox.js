@@ -28,7 +28,7 @@ contenedorLight.addEventListener("click", (e)=>{
 
 function imgActual() {
     var actual = imagenesLight;
-    for(i = 0; i < imagenesLight; i++){
+    for(i = 0; i < imagenes.length; i++){
         if(imagenesLight.src === imagenes[i].src)
         break;
     }
