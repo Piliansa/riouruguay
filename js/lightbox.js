@@ -2,7 +2,7 @@ const hamburguer1 = document.querySelector(".hamburger");
 const imagenes = document.querySelectorAll(".img-galeria");
 const imagenesLight = document.querySelector(".agregar-imagen");
 const contenedorLight = document.querySelector(".imagen-light");
-listaImg = ["../uno.jpg", "../dos.jpg", "../tres.jpg", "../cuatro.jpg", "../cinco.jpg", "../seis.jpg"];
+
 
 
 const aparecerImagen = (imagen)=>{
